@@ -10,7 +10,7 @@
 
 ## 🖼️ Preview
 
-![QR Code Generator Screenshot](QRCode.png) 
+![QR Code Generator Screenshot](QRCode.PNG) 
 
 ## 🌐 Live Demo
 
