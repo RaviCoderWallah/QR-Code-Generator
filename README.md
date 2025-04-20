@@ -14,7 +14,7 @@
 
 ## 🌐 Live Demo
 
-[🔗 Click here to try it out](https://your-live-demo-link.com)  
+[🔗 Click here to try it out](https://qrimggenerator2025.netlify.app/)  
 <!-- Replace with your GitHub Pages or hosted project link -->
 
 ## 🛠️ Built With
