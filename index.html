@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <title>QR Code Generator - JS Mini Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="qr-logo">
+            <img src="/assets/Logo.svg" alt="QR Code Logo">
+        </div>
+        <div class="controls">
+            <input type="text" placeholder="https://example.com" id="url-input" autocomplete="off">
+            <button id="generate-btn">QR Code</button>
+        </div>
+        <div class="result-circle">
+            <div class="result">
+                <div class="qr-code-img">
+
+                </div>
+            </div>
+        </div>
+        <div class="controls-btns">
+            <a id="download-btn" href="#" download="qr-code.png">
+                <button>
+                    Download
+                    <img src="assets/Load_circle_duotone.svg" alt="Download Icon Svg">
+                </button>
+            </a>
+
+            <button id="share-btn">
+                <span>Share</span>
+                <img src="assets/link_alt.svg" alt="Link Icon Svg">
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
